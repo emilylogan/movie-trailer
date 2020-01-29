@@ -8,3 +8,25 @@
 * {
     outline: 1px dotted black;
 }
+
+/* */
+section {
+  width: 50%;
+}
+
+.plyr--full-ui input[type="range"] {
+  color: red;
+}
+
+.plyr__time {
+  font-size: 52px;
+}
+  
+
+.plyr__control--overlaid {
+  background: rgba(250, 0, 0, 0.8);
+}
+
+.plyr button {
+  color: red;
+}
