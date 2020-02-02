@@ -11,18 +11,62 @@
 
 /* */
 
-main { 
-  display: grid;
-  grid-template-columns: 1fr;
+main {
+  background: url("https://www.weinerelementary.org/uploads/2/2/8/6/22867982/wall-e-2008-screenshot-02_2.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.cast {  
-  display: flex;
-  flex-wrap: wrap;
+#trailer {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-section {
-  width: 50%;
+h1 {
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 45px;
+}
+
+h3, p, blockquote, footer, aside {
+  font-family:arial;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+blockquote{
+  font-size: 22px;
+}
+
+.actorname {
+  text-align:center;
+}
+
+.cast {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+img {
+border: 3px solid black;
+height: 300px;
+}
+
+#line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
 }
 
 .plyr--full-ui input[type="range"] {
@@ -41,3 +85,9 @@ section {
 .plyr button {
   color: red;
 }
+
+#player {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
