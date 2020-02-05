@@ -2,7 +2,7 @@
 
 ## Description
 
-Wall-E is a kids movie that gives a warning
+Wall-E is a kids movie that gives a warning about the impact of man-made pollution.
 
 ## Sources
 
